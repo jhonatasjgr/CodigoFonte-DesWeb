@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Cadastro de pessoa</h3>
+    <form action="">
+      <div>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <br />
+      <div>
+        <label for="date">Data de nascimento</label>
+        <input type="date" name="date" id="date" required />
+        <label for="myfile">Foto:</label>
+        <input type="file" id="myfile" name="myfile" />
+      </div>
+    <br>
+      <div>
+        <label for="nationality">Nacionalidade</label>
+        <select style="background-color: rgba(128, 128, 128, 0.678); color: black" nome="nationality" id="nationality">
+          <strong>
+          <option value="Russia">Russia</option>
+          <option value="Americano">Estados Unidos</option>
+          <option value="Brasileiro">Brasil</option>
+          <option value="Frances">França</option>
+        </strong>
+    
+        <input type="radio" id="female" name="sexo" value="female">
+        <label for="female">F</label>
+        <input type="radio" id="male" name="sexo" value="male">
+        <label for="male">M</label>
+      </div>
+      <div>
+        <br>
+        Suas principais qualidades:
+        <br>
+        <label for="int">Inteligencia</label>
+        <input type="checkbox" id="int" name="int" value="">|
+        <label for="res">Resiliencia</label>
+        <input type="checkbox" id="res" name="inrest" value="">|
+        <label for="prep">Preparo Fisico</label>
+        <input type="checkbox" id="prep" name="prep" value="">|
+        <label for="ed">Educação</label>
+        <input type="checkbox" id="ed" name="ed" value="">|
+      </div>
+      <br>
+      <div>
+        <textarea name="descricao" id="descricao" cols="30" rows="10">Nesse campo escreva sobre você</textarea>
+      </div>
+      <div>
+        <input type="submit" value="Criar">
+      </div>
+    </form>
+    </div>
+    
+
+  </body>
+</html>

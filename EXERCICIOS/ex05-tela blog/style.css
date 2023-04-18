@@ -1,0 +1,19 @@
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+div {
+  background-color: #fde8e8;
+  margin: auto;
+  padding: 12px;
+  border: 0.1px;
+  width: fit-content;
+}
+.date {
+  color: #008080;
+  font-family: roboto;
+}
+.container {
+  width: 600px;
+  height: 680px;
+  flex: auto;
+}
